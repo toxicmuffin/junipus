@@ -1,7 +1,7 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  // generated page fall backs
+  // generate page fall backs
   generate: {
     fallback: true
   },
