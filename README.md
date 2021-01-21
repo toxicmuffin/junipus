@@ -4,7 +4,7 @@
     <img src="static/uploads/somelogo.svg" alt="Juniperus logo" height="30">
   </h1>
 </a>
-<p align="center" style="background-color: #fff; padding: 1rem; border-radius: 1rem;">
+<p align="center">
   <a href="https://forestry.io/">
     <img src="assets/brandLogos/forestry.svg" alt="Forestry Logo" height="30" />
   </a>
