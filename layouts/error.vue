@@ -3,9 +3,9 @@
     <div class="relative flex flex-col items-center justify-center p-2 lg:8 text-center w-full h-screen">
       <div class="neon-box" />
       <div class="neon-box-inner" />
+      <h1 class="after-dark-01">This is awkward...</h1>
       <h1 v-if="error.statusCode === 404" class="after-dark">404 Page not found</h1>
       <h1 v-else class="after-dark-01">An error occurred</h1>
-      <h1 class="after-dark-01">This is awkward...</h1>
       <NuxtLink to="/" class="after-dark-02">Return Home</NuxtLink>
     </div>
   </div>
@@ -14,7 +14,7 @@
 <script>
 export default {
   props: ['error'],
-  colorMode: 'dark-mode'
+  colorMode: 'dark-mode',
 }
 </script>
 

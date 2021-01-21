@@ -6,14 +6,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  created() {
-    console.log('created')
-  }
-}
-</script>
-
 <style lang="scss" scoped>
 .style-name-01 {
   @apply w-full mb-4 p-4 rounded shadow;
