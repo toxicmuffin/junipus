@@ -47,6 +47,12 @@ export default {
         menuOpen: false,
         subMenuOpen: false
     }
+  },
+  watch: {
+    '$route' () {
+      this.menuOpen = false
+      this.subMenuOpen = false
+    }
   }
 }
 </script>
@@ -62,6 +68,7 @@ export default {
 }
 .nav-item {
   @apply p-8 transition duration-500;
+  
   &:hover {
     @apply rounded shadow-xl;
   }

@@ -1,5 +1,7 @@
 {
   "name": "juniperus",
+  "author": "Kai Asuncion",
+  "description": "A template for Forestry using Nuxt",
   "version": "1.0.0",
   "private": true,
   "scripts": {
