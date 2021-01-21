@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl text-center">Gallery</h1>
-    <ul class="gallery-masonry">
+    <ul class="gallery-masonry inlay">
       <li
         v-for="image in gallery.gallery"
         :key="image.index"

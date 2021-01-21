@@ -7,7 +7,7 @@
         <Author :author="author" :date="article.createdAt" :ttr="article.body" />
         <img class="object-cover mb-4 h-32 md:h-64 w-screen" :src="article.hero_image" :alt="article.alt_tag">
       </div>
-      <nuxt-content :document="article" class="blog-content prose prose-purple prose-sm sm:prose lg:prose-lg xl:prose-2xl"/>
+      <nuxt-content :document="article" class="blog-content prose-lg xl:prose-2xl"/>
       <div class="flex flex-row justify-center mb-8">
         <span class="dot"></span>
         <span class="dot"></span>

@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col items-center justify-center text-6xl">
-    <div class="relative flex flex-col items-center justify-center p-2 lg:8 text-center w-full h-screen">
+  <div class="flex flex-col items-center justify-center text-xl md:text-3xl lg:text-6xl">
+    <div class="relative flex flex-col items-center justify-center p-2 text-center w-full h-screen">
       <div class="neon-box" />
       <div class="neon-box-inner" />
       <h1 class="after-dark-01">This is awkward...</h1>
