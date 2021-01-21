@@ -18,8 +18,8 @@
 <script>
 import DarkIcon from '@/assets/icons/dark.svg?inline'
 import LightIcon from '@/assets/icons/light.svg?inline'
-import SepiaIcon from '@/assets/icons/Sepia.svg?inline'
-import SystemIcon from '@/assets/icons/System.svg?inline'
+import SepiaIcon from '@/assets/icons/sepia.svg?inline'
+import SystemIcon from '@/assets/icons/system.svg?inline'
 // nuxt svg module
   export default {
     components: {
