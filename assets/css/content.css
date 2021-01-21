@@ -1,0 +1,139 @@
+:root {
+  --color: #333;
+  --color-primary: #333;
+  --color-secondary: #333;
+  --bg: #fff;
+  --bg-secondary: #fff;
+  --border-color: #ddd;
+}
+.dark-mode {
+  --color: #fdfdfd;
+  --color-primary: #41b38a;
+  --color-secondary: #c3c3c3;
+  --bg: #071521;
+  --bg-secondary: #1a202c;
+  --border-color: #0d2538;
+}
+.light-mode {
+  --color: #333;
+  --color-secondary: #1a1a1a;
+  --bg: #dbdbdb;
+  --bg-secondary: #fff;
+  --border-color: #dadada;
+}
+.sepia-mode {
+  --color: #433422;
+  --color-secondary: #504231;
+  --bg: #f1e7d0;
+  --bg-secondary: #eae0c9;
+  --border-color: #ded0bf;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--bg);
+  color: var(--color);
+  transition: background-color 0.3s;
+}
+a {
+  color: var(--color-primary);
+}
+h1,h2,h3,h4,h5,h6 {
+  color: var(--color);
+  text-transform: capitalize;
+}
+.title-case {
+  text-transform: capitalize;
+}
+.blog-content {
+  @apply w-full mx-auto mb-8;
+  @screen xl {
+    max-width: 50vw;
+  }
+  &.nuxt-content h1 {
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: var(--bg);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+  }
+  &.nuxt-content h2 {
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: var(--bg);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+  }
+  &.nuxt-content h3 {
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: var(--bg);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+  }
+  &.nuxt-content h4 {
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: var(--bg);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+  }
+  &.nuxt-content h5 {
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: var(--bg);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+  }
+  &.nuxt-content h6 {
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: var(--bg);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+  }
+  &.nuxt-content img {
+    max-height: 50vh;
+    margin: auto;
+  }
+  &.nuxt-content figcaption {
+    @apply text-center;
+  }
+}
+
+.dont-break {
+  break-inside: avoid;
+}
+.bttn {
+  @apply mr-2 mb-2 p-2 rounded transition duration-500 cursor-pointer shadow;
+  
+  background-color: var(--bg);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+  &:hover {
+    background-color: var(--bg-secondary);;
+  }
+  &.nuxt-link-exact-active {
+    color: #fff;
+    background-color: var(--color-primary)
+  }
+}
+.round-pads {
+  @apply p-4 rounded shadow;
+}
+.mode-bg {
+  background-color: var(--bg);
+}
+.mode-bg-second {
+  background-color: var(--bg-secondary);
+}
+.mode-text {
+  color: var(--color);
+}
+.mode-text-primary {
+  color: var(--color-primary);
+}
+.mode-text-secondary {
+  color: var(--color-secondary);
+}
+.mode-border {
+  color: var(--border-color);
+}
+.inlay {
+  border-radius: .25rem;
+  background-color: var(--bg);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+}

@@ -1,0 +1,41 @@
+---
+label: Contact
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Input a title for the contact page
+- name: about
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html-blocks
+    min: 200
+  label: About
+  description: An about us section that appears on page
+- name: contact_image
+  type: file
+  config:
+    maxSize: 64
+  label: Contact Image
+  description: Select an image you would like to appear on the contact page
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+  description: Input an email that you would like to appear on the contact page
+- name: phone_number
+  type: text
+  config:
+    required: false
+  label: Phone Number
+  description: Input a phone number you would like to appear on the contact page
+pages:
+- content/data/contactPage.json

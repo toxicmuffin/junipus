@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@layer utilities {
+  @variants responsive {
+    .vertical-masonry {
+      columns: 2;
+      gap: 1rem;
+      @screen lg {
+        columns: 3;
+      }
+    }
+  }
+}

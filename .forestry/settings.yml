@@ -1,0 +1,52 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: "/static/admin"
+webhook_url: 
+sections:
+- type: heading
+  label: Blog
+- type: directory
+  path: content/articles
+  label: Posts
+  create: documents
+  match: "**/*"
+  templates:
+  - default-blog-post
+  - photo-gallery
+- type: heading
+  label: Pages
+- type: document
+  path: content/data/homePage.json
+  label: Home
+- type: directory
+  path: content/authors
+  label: Authors
+  create: documents
+  match: "**/*"
+  new_doc_ext: yml
+  templates:
+  - author
+- type: document
+  path: content/data/galleryPage.json
+  label: Gallery
+- type: document
+  path: content/data/contactPage.json
+  label: Contact
+- type: heading
+  label: Configurations
+- type: document
+  path: content/data/tags.json
+  label: Tags
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_output_directory: public
+  install_dependencies_command: yarn install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: yarn dev

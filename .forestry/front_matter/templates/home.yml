@@ -1,0 +1,55 @@
+---
+label: Home
+hide_body: true
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: sub_heading
+  type: text
+  config:
+    required: false
+  label: Sub Heading
+- name: call_to_action_00
+  type: text
+  config:
+    required: false
+  label: Call to Action 1
+  description: This is the button on the left on the home screen
+- name: call_to_action_link_00
+  type: text
+  config:
+    required: false
+  label: Call to Action Link
+  description: This is the link for first button
+- name: call_to_action_01
+  type: text
+  config:
+    required: false
+  label: Call to Action
+  description: This is the colored button on the home screen
+- name: call_to_action_link_01
+  type: text
+  config:
+    required: false
+  label: Call to Action Link
+  description: This is the link for second button (colored)
+- name: call_to_action_color
+  type: color
+  label: Call to Action Color
+  config:
+    required: false
+    color_format: Hex
+  default: "#B794F4"
+  description: This selects the color for the second button (Keep in mind the text
+    Is white)
+- name: heading_image
+  type: file
+  config:
+    maxSize: 64
+  label: Heading Image
+  description: This is the image that will appear aside the heading
+pages:
+- content/data/homePage.json

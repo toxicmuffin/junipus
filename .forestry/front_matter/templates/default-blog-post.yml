@@ -1,0 +1,74 @@
+---
+label: Default Blog Post
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 
+  label: Title
+  description: The title of the blog post.
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+    max: 250
+  label: Description
+  description: Should be about a paragraph long. Something to entice the reader
+- name: author
+  type: select
+  default: []
+  config:
+    required: true
+    options:
+    - Kai Asuncion
+    - Big Foot
+    - Abominable Snowman
+    - Loch Ness Monster
+    source:
+      type: simple
+      section: authors-b915270a-a51f-4284-85d2-20d4511950fe
+      file: 
+      path: 
+  label: Author
+  description: Select an author
+- name: hero_image
+  type: file
+  config:
+    maxSize: 64
+  label: Hero Image
+  default: "/uploads/place_holder_large.jpg"
+- name: alt_tag
+  type: text
+  config:
+    required: true
+  label: Alt Tag
+  description: A short description of the image.
+  default: Place Holder
+- name: tags
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: tags
+      file: content/data/tags.json
+      path: tag
+  label: Tags
+  description: Select a topic or multiple topic tags
+pages:
+- content/articles/fast-fox-lazy-dog.md
+- content/articles/ipsum-lorem.md
+- content/articles/lorem-ipsum.md
+- content/articles/quick-lazy-dogs.md
+- content/articles/side-quest.md
+- content/articles/something-something-something.md
+- content/articles/syntax.md
+- content/articles/the-quick-brown-fox-jumps-over-the-lazy-dog.md

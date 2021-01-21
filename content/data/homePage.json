@@ -1,0 +1,10 @@
+{
+  "heading": "Juniperus",
+  "sub_heading": "A Nuxt and Forestry Template",
+  "call_to_action_00": "Read Me",
+  "call_to_action_01": "Github",
+  "call_to_action_color": "#B794F4",
+  "heading_image": "/uploads/somelogo.svg",
+  "call_to_action_link_00": "/",
+  "call_to_action_link_01": "https://github.com/toxicmuffin/junipus"
+}

@@ -1,0 +1,66 @@
+---
+label: Author
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Name
+- name: avatar
+  type: file
+  config:
+    maxSize: 64
+  label: Avatar
+  description: This is the image that will appear as your avatar. Use a square crop
+    for best results
+- name: background
+  type: file
+  config:
+    maxSize: 64
+  label: Background
+  description: Select and image you would like to appear as your background
+- name: bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Bio
+- name: author_background_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  description: Select a color the button's color will change to when hovered (Keep
+    in mind the text on hover is white)
+  default: "#FFFFFF"
+  label: Author Background_Color
+- name: socials
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+    description: Name of website or Social media
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+    description: URL for the website or social media
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Socials
+  description: Enter in any websites or social media you would like to share
+pages:
+- content/authors/abominable-snowman.yml
+- content/authors/big-foot.yml
+- content/authors/kai-asuncion.yml
+- content/authors/loch-ness-monster.yml
