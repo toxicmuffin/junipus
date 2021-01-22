@@ -80,6 +80,8 @@ export default {
   }
 }
 .nuxt-link-exact-active {
-  @apply rounded shadow;
+  border-radius: .25rem;
+  background-color: var(--bg);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
 }
 </style>
