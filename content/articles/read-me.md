@@ -10,9 +10,7 @@ tags:
 - Web Development
 
 ---
-# \[Forestry\]([https://forestry.io/](https://forestry.io/ "https://forestry.io/"))
-
-# \[NuxtJS\]([https://nuxtjs.org/](https://nuxtjs.org/ "https://nuxtjs.org/"))
+# [Forestry](https://forestry.io) & [NuxtJS](https://nuxtjs.org)
 
 ## About
 
@@ -38,6 +36,7 @@ Todo List:
 * Comments
 * Page Transitions
 * Touch up styling and Tailwindcss classes
+* MD styles
 
 ## Getting Started
 
@@ -52,9 +51,7 @@ Todo List:
     # install dependencies$ yarn install
     # serve with hot reload at localhost:3000$ yarn dev
 
-### Import to Forestry
-
-### ([https://forestry.io/docs/quickstart/setup-site/](https://forestry.io/docs/quickstart/setup-site/ "Forestry Quick Start"))
+### [Import to Forestry](https://forestry.io/docs/quickstart/setup-site)
 
 Importing the repo to Forestry is straight forward. Create an account or login with git. Once you do that, navigate to the dashboard if it didn't already.
 
