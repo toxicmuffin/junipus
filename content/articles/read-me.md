@@ -10,9 +10,9 @@ tags:
 - Web Development
 
 ---
-# \[Forestry.io\]([https://forestry.io/](https://forestry.io/ "Forestry Official Site"))
+# \[Forestry\]([https://forestry.io/](https://forestry.io/ "https://forestry.io/"))
 
-# \[NuxtJS\]( [https://nuxtjs.org/](https://forestry.io/ "NuxtJS Official Site"))
+# \[NuxtJS\]([https://nuxtjs.org/](https://nuxtjs.org/ "https://nuxtjs.org/"))
 
 ## About
 
@@ -22,33 +22,22 @@ Juniperus is a blog template that utilizes Nuxt and Forestry. Nuxt is a Vue Java
 
 The scope of this project was to learn how a headless cms works all while familiarizing myself more with Nuxt. Since the scope of the project is overwhelmingly broad, I made the main goal for the end product to be a template. As in, anyone could use it how they see fit. I chose to do this project in the form of a template because it would mean other people besides myself could use it. Keeping that in mind, I wanted to make everything as User and Developer friendly.
 
-  
 Features:
 
-\* Blog Page / List /
+* Blog Page / List /
+* Scroll to Top
+* Time to Read
+* Author(s) List / Profile / Posts By
+* Tags / Filtering
+* Featured Posts
+* Dark / Light / Sepia (Read) / System modes
 
-\* Scroll to Top
-
-\* Time to Read
-
-\* Author(s) List / Profile / Posts By
-
-\* Tags / Filtering
-
-\* Featured Posts
-
-\* Dark / Light / Sepia (Read) / System modes
-
-  
 Todo List:
 
-\* Docs
-
-\* Comments
-
-\* Page Transitions
-
-\* Touch up styling and Tailwindcss classes
+* Docs
+* Comments
+* Page Transitions
+* Touch up styling and Tailwindcss classes
 
 ## Getting Started
 
@@ -63,7 +52,9 @@ Todo List:
     # install dependencies$ yarn install
     # serve with hot reload at localhost:3000$ yarn dev
 
-### \[Import to Forestry\]([https://forestry.io/docs/quickstart/setup-site/](https://forestry.io/docs/quickstart/setup-site/ "Forestry Quick Start"))
+### Import to Forestry
+
+### ([https://forestry.io/docs/quickstart/setup-site/](https://forestry.io/docs/quickstart/setup-site/ "Forestry Quick Start"))
 
 Importing the repo to Forestry is straight forward. Create an account or login with git. Once you do that, navigate to the dashboard if it didn't already.
 
