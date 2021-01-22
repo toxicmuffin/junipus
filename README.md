@@ -46,7 +46,7 @@ Todo List:
 #clone repo
 $ git clone https://github.com/toxicmuffin/juniperus.git
 
-$ cd junipus
+$ cd juniperus
 
 # install dependencies
 $ yarn install
@@ -54,6 +54,13 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 ```
+### [Import to Forestry](https://forestry.io/docs/quickstart/setup-site/)
+Importing the repo to Forestry is straight forward. Create an account or login with git. Once you do that, navigate to the dashboard if it didn't already. 
+
+Dashboard > Add Site > Other > Select Git Provider > Choose Repository and Branch
+
+![instructions unclear image](/assets/readmeAssets/instructions_unclear.jpg)
+
 ### Production
 ```
 # generate static project
@@ -61,3 +68,5 @@ $ yarn generate
 
 $ yarn start
 ```
+
+### Deploy to your favorite static hosting site. 
