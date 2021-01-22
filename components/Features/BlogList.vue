@@ -34,7 +34,7 @@ export default {
 .blog-list-card {
 
   // break-inside: avoid;
-  @apply mb-4 rounded shadow-xl transition duration-200 transform;
+  @apply mb-4 rounded shadow transition duration-200 transform;
   .blog-list-item {
     @apply p-4;
   }
@@ -42,7 +42,7 @@ export default {
     @apply;
   }
   &:hover {
-    @apply -translate-y-4;
+    @apply -translate-y-2 shadow-xl;
   }
 }
 </style>

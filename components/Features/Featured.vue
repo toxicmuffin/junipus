@@ -31,15 +31,11 @@
 
 <style lang="scss" scoped>
 .featured-detail-container {
-  @apply flex flex-col justify-end text-white w-full absolute h-full;
+  @apply flex flex-col justify-end text-white w-full absolute h-full bg-gradient-to-t from-black to-transparent;
   .featured-detail-items {
     @apply p-4 transition duration-500 transform;
   }
-  @screen lg {
-    @apply bg-opacity-0;
-  }
   &:hover {
-    @apply bg-gradient-to-t from-black to-transparent;
     .featured-detail-items {
       @apply -translate-y-2;
     }

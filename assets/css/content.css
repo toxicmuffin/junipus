@@ -54,37 +54,37 @@ h1,h2,h3,h4,h5,h6 {
     padding: 1rem;
     border-radius: .25rem;
     background-color: var(--bg);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   }
   &.nuxt-content h2 {
     padding: 1rem;
     border-radius: .25rem;
     background-color: var(--bg);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   }
   &.nuxt-content h3 {
     padding: 1rem;
     border-radius: .25rem;
     background-color: var(--bg);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   }
   &.nuxt-content h4 {
     padding: 1rem;
     border-radius: .25rem;
     background-color: var(--bg);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   }
   &.nuxt-content h5 {
     padding: 1rem;
     border-radius: .25rem;
     background-color: var(--bg);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   }
   &.nuxt-content h6 {
     padding: 1rem;
     border-radius: .25rem;
     background-color: var(--bg);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   }
   &.nuxt-content img {
     max-height: 50vh;
@@ -92,6 +92,16 @@ h1,h2,h3,h4,h5,h6 {
   }
   &.nuxt-content figcaption {
     @apply text-center;
+  }
+  &.nuxt-content pre {
+    color: var(--color-primary);
+    border-radius: .25rem;
+    background-color: var(--bg);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) inset;
+  }
+  &.nuxt-content pre code {
+    text-shadow: none;
+    font-family: monospace;
   }
 }
 
