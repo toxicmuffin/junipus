@@ -48,8 +48,11 @@ Todo List:
     
     $ cd juniperus
     
-    # install dependencies$ yarn install
-    # serve with hot reload at localhost:3000$ yarn dev
+    # install dependencies
+    $ yarn install
+    
+    # serve with hot reload at localhost:3000
+    $ yarn dev
 
 ### [Import to Forestry](https://forestry.io/docs/quickstart/setup-site)
 
