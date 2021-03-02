@@ -64,6 +64,7 @@ fields:
   label: Tags
   description: Select a topic or multiple topic tags
 pages:
+- content/articles/cryptocurrency-in-a-nutshell.md
 - content/articles/fast-fox-lazy-dog.md
 - content/articles/ipsum-lorem.md
 - content/articles/lorem-ipsum.md
